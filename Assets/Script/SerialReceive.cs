@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// https://qiita.com/Ninagawa123/items/f6595dcf788dd316be8a
+// 上記をURL参考に作成
 public class SerialReceive : MonoBehaviour
 {
-    //https://qiita.com/yjiro0403/items/54e9518b5624c0030531
-    //上記URLのSerialHandler.cのクラス
+    
     public SerialHandler serialHandler;
     public float distance = 0;
 

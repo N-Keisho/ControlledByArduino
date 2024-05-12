@@ -3,6 +3,8 @@ using System.Collections;
 using System.IO.Ports;
 using System.Threading;
 
+//https://qiita.com/yjiro0403/items/54e9518b5624c0030531
+//上記URLのSerialHandler.cs
 public class SerialHandler : MonoBehaviour
 {
     public delegate void SerialDataReceivedEventHandler(string message);
